@@ -2,7 +2,9 @@ set nocompatible
 filetype off                  
 
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/onehalf/vim
 set rtp+=~/.vim/bundle/dracula
+
 call vundle#begin()
 
 set encoding=utf-8
@@ -27,8 +29,18 @@ Plugin 'wakatime/vim-wakatime'
 
 Plugin 'dracula/vim', { 'name': 'dracula' }
 
+Plugin 'sonph/onehalf', {'rtp': 'vim/'}
+
 call vundle#end()
 filetype plugin indent on
+
+set t_Co=256
+
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
 
 syntax on
 
@@ -40,8 +52,9 @@ set number
 " Don't wrap lines
 set nowrap
 
+let g:airline_theme='onehalfdark'
 set background=dark
-colorscheme dracula
+colorscheme onehalfdark
 
 set gdefault
 set ttyfast
@@ -100,7 +113,3 @@ vsplit
 cd C:\Users\SongoMen\Desktop\github
 
 terminal
-
-
-set t_Co=256
-let g:airline_theme='light'
