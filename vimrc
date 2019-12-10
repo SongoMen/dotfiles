@@ -110,6 +110,4 @@ map <S-k> <Nop>
 
 vsplit
 
-cd C:\Users\SongoMen\Desktop\github
-
 terminal
