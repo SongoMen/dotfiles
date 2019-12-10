@@ -112,6 +112,6 @@ map <S-k> <Nop>
 
 vsplit
 
-cd C:\Users\patko\Desktop\github
+cd ~\Desktop\github
 
 terminal
