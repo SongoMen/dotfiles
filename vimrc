@@ -15,6 +15,8 @@ Plugin 'editorconfig/editorconfig-vim'
 
 Plugin 'kana/vim-operator-user'
 
+Plugin 'beautify-web/js-beautify'
+
 Plugin 'prabirshrestha/async.vim'
 
 Plugin 'ctrlpvim/ctrlp.vim'
