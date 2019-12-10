@@ -110,4 +110,6 @@ map <S-k> <Nop>
 
 vsplit
 
+cd C:\Users\patko\Desktop\github
+
 terminal
