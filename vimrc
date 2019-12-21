@@ -8,6 +8,12 @@ set rtp+=~/.vim/bundle/dracula
 call vundle#begin()
 
 set encoding=utf-8
+										
+Plugin 'prettier/vim-prettier'
+
+Plugin 'pangloss/vim-javascript'
+
+Plugin 'mxw/vim-jsx'
 
 Plugin 'VundleVim/Vundle.vim'
 
@@ -82,6 +88,7 @@ set encoding=utf-8
 set title
 set shortmess=atI
 set ruler
+filetype indent on
 
 " Enable relative line numbering
 set rnu
