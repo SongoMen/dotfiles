@@ -42,6 +42,8 @@ Plugin 'sonph/onehalf', {'rtp': 'vim/'}
 call vundle#end()
 filetype plugin indent on
 
+let g:prettier#config#single_quote = 'false'
+
 set t_Co=256
 
 if exists('+termguicolors')
