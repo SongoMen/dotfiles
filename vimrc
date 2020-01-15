@@ -119,6 +119,11 @@ nnoremap <F1> <nop>
 
 map <S-k> <Nop>
 
+au FileType python nmap <leader>f <Plug>(ale_fix)
+
+au FileType javascript setlocal ts=2 sw=2 sts=2
+au FileType html setlocal ts=2 sw=2 sts=2
+
 vsplit
 
 cd ~\Desktop\github
