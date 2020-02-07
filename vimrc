@@ -8,7 +8,9 @@ set rtp+=~/.vim/bundle/dracula
 call vundle#begin()
 
 set encoding=utf-8
-										
+
+Plugin 'ycm-core/YouCompleteMe'								
+
 Plugin 'prettier/vim-prettier'
 
 Plugin 'pangloss/vim-javascript'
