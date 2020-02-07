@@ -9,9 +9,15 @@ call vundle#begin()
 
 set encoding=utf-8
 
-Plugin 'ycm-core/YouCompleteMe'								
+Plugin 'scrooloose/syntastic'
 
 Plugin 'prettier/vim-prettier'
+
+Plugin 'othree/html5.vim'
+
+Plugin 'hail2u/vim-css3-syntax'
+
+Plugin 'cakebaker/scss-syntax.vim'
 
 Plugin 'pangloss/vim-javascript'
 
