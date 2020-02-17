@@ -9,8 +9,6 @@ call vundle#begin()
 
 set encoding=utf-8
 
-Plugin 'scrooloose/syntastic'
-
 Plugin 'prettier/vim-prettier'
 
 Plugin 'othree/html5.vim'
