@@ -112,6 +112,9 @@ set laststatus=2
 
 set cursorline
 
+set backupdir=$TEMP//
+set directory=$TEMP//
+
 set undofile
 set undodir=$HOME/.vimundo
 set undolevels=1000
