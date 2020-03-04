@@ -97,6 +97,7 @@ set title
 set shortmess=atI
 set ruler
 filetype indent on
+set ff=unix
 
 " Enable relative line numbering
 set rnu
