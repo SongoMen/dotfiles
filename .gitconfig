@@ -1,0 +1,15 @@
+[user]
+     name = yourName
+     email = yourEmail
+[pull]
+	rebase = true
+
+[alias]
+    st = status
+    ci = commit --verbose
+    co = checkout
+    df = diff
+    lg = log -p
+    ap = add --patch
+    track = add -N
+    diffh = diff HEAD
